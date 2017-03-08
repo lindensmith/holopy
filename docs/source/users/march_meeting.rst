@@ -8,7 +8,7 @@ I like the way readthedocs formats code, so I'm putting some code up temporarily
 ..  testcode::
 
     import holopy as hp
-    my_holo = hp.load_image('holo.tif',spacing = 0.0858, illum_wavelen = 0.52, medium_index = 1.33)
+    my_holo = hp.load_image('holo.tif',spacing = .0858, illum_wavelen = .52, medium_index = 1.33)
     hp.show(my_holo)
 
 loaded an image and metadata.
